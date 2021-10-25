@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Purple Chopstix</title>
+
+    <!-- Bootstrap CSS -->
+    <link href='https://unpkg.com/bootstrap/dist/css/bootstrap.min.css' rel='stylesheet' />
+
+    <!-- Google Fonts stylesheet -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600&display=swap" rel="stylesheet">
+
+    <!-- stylesheet -->
+    <link href="css/scrolling.css" rel="stylesheet">
+
+    <!-- internal CSS styles -->
+    <style>
+        .img-pos {
+            position: relative;
+            left: 50px;
+            /* opacity: 0; */
+            /* -webkit-transition: all 0.5s;
+            transition: all 0.5s; */
+        }
+
+        .img-pos-2 {
+            left: 0px;
+            /* opacity: 1; */
+        }
+
+        header {
+            text-align: center;
+            padding: 170px;
+        }
+
+
+        .info {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 300;
+        }
+
+        footer {
+            background-color: darkmagenta;
+            padding: 10px;
+        }
+
+        .catering .col-md-12 {
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        nav{
+            background-color: darkmagenta;
+
+        }
+
+        .nav-item {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .parallax1 {
+            background-image: url(images/chuttersnap-aEnH4hJ_Mrs-unsplash.jpg);
+            height: 100%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .parallax2 {
+            background-image: url(images/robert-mathews-xXaLfz6V9rQ-unsplash.jpg);
+            height: 100%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .menu-heading {
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+        }
+
+        .menu-subhead {
+            font-family: 'Montserrat', sans-serif;
+            text-align: center;
+        }
+
+        .menu-item {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .item-description  {
+            text-align: center;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+
+        .additions {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .optional-additions {
+            padding-bottom: 0px;
+            margin-bottom: 0px;
+        }
+
+        #menu {
+            padding-top: 20px;
+        }
+
+        .bg-light {
+            border-radius: 25px;
+            padding: 10px;
+        }
+
+
+    </style>
+
+</head>
+
+<body id="page-top">
+
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-md fixed-top" id="mainNav">
+        <div class="container-fluid">
+
+            
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse" id="navbarResponsive">
+                <ul class="navbar-nav nav-pills ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#page-top">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#catering">Catering</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#photos">Photos</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- header -->
+    <header class="black-type parallax1">
+         <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 bg-light">
+                    <h1>Purple Chopstix</h1>
+                    <p class="lead">371 Richland Avenue | Athens, OH 45701 | (740) 592-4798</p>
+                    <p class="lead">We are currently reservation only — please check our <a href= "https://www.facebook.com/purplechopstix">Facebook</a> page for weekly specials or give us a call!</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- menu -->
+    <section id="menu" class="menu">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4" style="float: left;">
+                    <hr>
+                </div>
+                <div class="col-md-4">
+                    <h2 class="menu-heading">MENU</h2>
+                </div>
+                <div class="col-md-4" style="float: right;">
+                    <hr>
+                </div>
+                <!--Apps-->
+                <div class="col-md-6">
+                    <h3 class="menu-subhead">Appetizers</h3>
+                    <div class="item-container">
+                        <h5 class="menu-item">Greek Pizza - 10</h5>
+                        <p class="item-description">Creamy pesto spread on warm flatbread, topped with kalamata tapenade, fresh tomatoes, and feta cheese.</p>
+                    </div>
+                    <div class="item-container">
+                        <h5 class="menu-item">Nori Sushi Roll - 9</h5>
+                        <p class="item-description">Scallion, daikon radish, carrot, and red pepper make this vegan delicacy a tasty treat. With wasabi, pickled ginger, and soy sauce.</p>
+                    </div>
+                    <div class="item-container">
+                        <h5 class="menu-item">Crostini Bread - 8</h5>
+                        <p class="item-description">Toasted slices of French baguette topped with garlic butter, sweet peppers, parsley, and mozzarella.</p>
+                    </div>
+                    <div class="item-container">
+                        <h5 class="menu-item">Nachos Grande - 11</h5>
+                        <p class="item-description">Piled high with peppers, onions, beans, cheese, and green chili. Served with our house salsa and sour cream garnish.</p>
+                    </div>
+                    <div class="item-container">
+                        <h5 class="menu-item">Warm Artichoke Parmesan Dip - 10</h5>
+                        <p class="item-description">Served with pita points and chips.</p>
+                    </div>
+                </div>
+                <!--A La Carte-->
+                <div class="col-md-6">
+                    <h3 class="menu-subhead">A La Carte</h3>
+                    <div class="item-container">
+                        <h5 class="menu-item">Sesame-Ginger Chicken or Tofu Salad - 14</h5>
+                        <p class="item-description">Tender strips of chicken or tofu seared in *Daisy* sauce over a bed of greens with feta and sesame soy dressing.</p>
+                    </div>
+                    <div class="item-container">
+                        <h5 class="menu-item">House Salad - 6</h5>
+                        <p class="item-description">Gourmet greens with carrot, red cabbage, cucumber, and tomato.</p>
+                    </div>
+                    <div class="item-container">
+                        <h5 class="menu-item">Tom Yum Soup - 6</h5>
+                        <p class="item-description">Beans and rice in a spicy Thai coconut broth with scallions and fresh ginger.</p>
+                    </div>
+                    <div class="item-container">
+                        <h5 class="menu-item">Chips and Salsa - 5</h5>
+                        <p class="item-description">Tortilla chips paired with our house salsa and sour cream.</p>
+                    </div>
+                </div>
+                <!--Entrees-->
+                <div class="col-md-12">
+                    <br>
+                    <br>
+                    <br>
+                    <h3 class="menu-subhead">Entrées</h3>
+                    <p class="item-description">- Includes choice of soup or salad -</p>
+                </div>
+                <!--Curry-->
+                <div class="col-md-6">
+                    <h4 class="menu-item">Curry Dishes</h4>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5 class="menu-item">Chicken - 17</h5>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 class="menu-item">Tofu - 19</h5>
+                        </div>
+                    </div>
+                    <p class="item-description">Simmered with fresh garlic and ginger and served over a bed of jasmine rice.</p>
+                    <div class="item-container">
+                        <h5 class="menu-item">Yellow Indian Curry</h5>
+                        <p class="item-description">Tortilla chips paired with our house salsa and sour cream.</p>
+                    </div>
+                    <div class="item-container">
+                        <h5 class="menu-item">Red Thai Coconut</h5>
+                        <p class="item-description">This spicy full-bodied curry is a house favorite.</p>
+                    </div>
+                    <div class="item-container">
+                        <h5 class="menu-item">Green Thai Coconut</h5>
+                        <p class="item-description">Considered *extra spicy* with earthy hints of lemongrass.</p>
+                    </div>
+                </div>
+                <!--Crepes-->
+                <div class="col-md-6">
+                    <h4 class="menu-item">Signature Crepes</h4>
+                    <p class="item-description">Two homemade crepess served with jasmine rice and chef's steamed vegetables.
+                        With your choice of filling:</p>
+                    <div class="item-container">
+                        <h5 class="menu-item">Seafood - 21</h5>
+                        <p class="item-description">Blend of baby shrimp and flaked crab with garlic, onions and sweet peppers. Topped with shrimp in sherry cream.</p>
+                    </div>
+                    <div class="item-container">
+                        <h5 class="menu-item">Veggie Tofu - 18</h5>
+                        <p class="item-description">A delightful blend of sautéed, marinated tofu and vegetables topped with creamy béchamel.</p>
+                    </div>
+                </div>
+                 <!-- Pastas -->
+                <div class="col-md-6">
+                    <br>
+                    <br>
+                    <h4 class="menu-item">Pastas</h4>
+                    <div class="item-container">
+                        <h5 class="menu-item">Linguine Shrimp and Scallops - 20</h5>
+                        <p class="item-description">With sautéed peppers, onions and cherry tomatoes in a light white wine and garlic sauce.</p>
+                    </div>
+                    <div class="item-container">
+                        <h5 class="menu-item">Sweet Potato Peanut Pasta - 16</h5>
+                        <p class="item-description optional-additions">Sweet potatoes and mixed veggies sauteed in soy sauce and garlic over rice noodles in a luscious peanut sauce.</p>
+                        <p class="item-description additions">+ Chicken/Tofu - 4</p>
+                        <p class="item-description additions">+ Shrimp - 5</p>
+                    </div>
+                    <div class="item-container">
+                        <h5 class="menu-item">Seafood Alfredo - 20</h5>
+                        <p class="item-description">Shrimp and crab in sherry cream with asparagus tips and baby tomatoes. Sprinkled with parmesan and parsley.</p>
+                    </div>
+                    <div class="item-container">
+                        <h5 class="menu-item">Veggie Pesto Pasta - 16</h5>
+                        <p class="item-description optional-additions"> Sun-dried tomatoes, portabellas, onions, sweet peppers and artichoke hearts tossed with linguine and fresh pesto.</p>
+                        <p class="item-description additions">+ Chicken/Tofu - 4</p>
+                        <p class="item-description additions">+ Shrimp - 5</p>
+                    </div>
+                </div>
+                <!-- House Specialties -->
+                <div class="col-md-6">
+                    <br>
+                    <br>
+                    <h4 class="menu-item">House Specialties</h4>
+                    <div class="item-container">
+                        <h5 class="menu-item">Daisy Stir Fry</h5>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5 class="menu-item">Chicken/Tofu - 17</h5>
+                            </div>
+                            <div class="col-md-6">
+                                <h5 class="menu-item">Shrimp - 19</h5>
+                            </div>
+                        </div>
+                        <p class="item-description">Sautéed veggies with baby corn, water chestnuts and snow peas in sweet sesame ginger sauce.</p>
+                    </div>
+                    <div class="item-container">
+                        <h5 class="menu-item">Bolivian Al Gûsto</h5>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h5 class="menu-item">Chicken/Tofu - 17</h5>
+                            </div>
+                            <div class="col-md-6">
+                                <h5 class="menu-item">Shrimp - 19</h5>
+                            </div>
+                        </div>
+                        <p class="item-description">Pan-seared veggies in a robust red wine sweet chili sauce with rice and beans.</p>
+                    </div>
+                    <div class="item-container">
+                        <h5 class="menu-item">Pollo de Taos - 18</h5>
+                        <p class="item-description">Breaded chicken breasts seared in green chili topped with melted cheese. Served with rice, beans, and tortilla chips garnish.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- catering -->
+
+    <section id="catering" class="catering parallax2">
+        <div class="container-fluid">
+            <div class="row bg-light">
+                <div class="col-md-12">
+                    <h2>Catering Options</h2>
+                    <h6>Have food, will travel!</h6>
+                </div>
+                <div class="col-md-8">
+                    <p class="lead">Purple Chopstix also offers catering and private parties. Choose from a wide variety of appetizers and entrees, including:</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul class="catering-items">
+                                <li>Smoked salmon cheesecake squares</li>
+                                <li>Greek pizza</li>
+                                <li>Artichoke parmesan dip</li>
+                                <li>Cilantro sweet chili shrimp</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <ul class="catering-items">
+                                <li>Nori suhi – callifornia rolls – inari sushi</li>
+                                <li>Stuffed mushrooms</li>
+                                <li>Flatbread rollups – pinwheels</li>
+                                <li>And more</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid" src="images/casey-lee-awj7sRviVXo-unsplash.jpg" style='height: 75%; width: 75%;'>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- photos -->
+    <section id="photos" class="photos">
+        <div class="container-fluid">
+            <div class="row">
+                    <h2 style="text-align: center;">Photos</h2>
+                
+                <br>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/priscilla-du-preez-W3SEyZODn8U-unsplash.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/stefan-johnson-xIFbDeGcy44-unsplash.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/louis-hansel-cH5IPjaAYyo-unsplash.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+
+            </div>
+
+        </div>
+    </section>
+   
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 text-white">
+                    <p>Anthony Marrone © 2021</p>
+                </div>
+                <div class="col-md-6">
+                    <p class="float-right">
+                        <a class="nav-link js-scroll-trigger text-white" href="#page-top">Back to top</a>
+                        <!-- <a href="#page-top">Back to top</a> -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JavaScript dependencies: first jQuery, then Popper.js, then Bootstrap JS -->
+    <script src='https://unpkg.com/jquery/dist/jquery.min.js'></script>
+    <script src='https://unpkg.com/popper.js/dist/umd/popper.min.js'></script>
+    <script src='https://unpkg.com/bootstrap/dist/js/bootstrap.min.js'></script>
+
+    <!-- project JavaScript dependencies -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling.js"></script>
+
+    <!-- internal JavaScript -->
+    <script>
+        // window event that returns scrollspy target on scroll
+        // use this 'callback' function to add effects...                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  target
+        $(window).on('activate.bs.scrollspy', function (e, obj) {
+            console.log(obj.relatedTarget);
+
+            // #about triggers animation on #anim using css transition
+            // if (obj.relatedTarget == '#about') {
+            //     $('.img-pos').addClass('img-pos-2');
+            // }
+        });
+    </script>
+
+</body>
+
+</html>
